@@ -9,6 +9,9 @@ import { InfomaqueteComponent } from './pages/infomaquete/infomaquete.component'
 import { CarrouselComponent } from './pages/carrousel/carrousel.component';
 import { AboutComponent } from './pages/about/about.component';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
+import { VideoHeaderComponent } from './pages/video-header/video-header.component';
+import { DesenhosComponent } from './pages/desenhos/desenhos.component';
+import { ContatoComponent } from './pages/contato/contato.component';
 
 
 @NgModule({
@@ -16,9 +19,12 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
     AppComponent,
     HeaderComponent,
     HomeComponent,
+    VideoHeaderComponent,
     InfomaqueteComponent,
     CarrouselComponent,
-    AboutComponent
+    AboutComponent,
+    ContatoComponent,
+    DesenhosComponent
   ],
   imports: [
     BrowserModule,

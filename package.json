@@ -19,10 +19,12 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "angular-video-background": "^1.0.3",
     "ngx-page-scroll": "^7.0.4",
     "ngx-page-scroll-core": "^7.0.4",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
+    "jquery": "^3.5.1",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
