@@ -1,16 +1,21 @@
-import { Component, OnInit } from '@angular/core';
-import * as $ from 'jquery';
+import { Component, OnInit } from "@angular/core";
+import * as $ from "jquery";
 
 @Component({
-  selector: 'app-video-header',
-  templateUrl: './video-header.component.html',
-  styleUrls: ['./video-header.component.css']
+  selector: "app-video-header",
+  templateUrl: "./video-header.component.html",
+  styleUrls: ["./video-header.component.css"],
 })
 export class VideoHeaderComponent implements OnInit {
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) {
+        $('#myVideo').get(0).pause();
+      } else {
+        $('#myVideo').get(0).play();
+      }
+    });
   }
-
 }
