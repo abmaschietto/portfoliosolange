@@ -9,35 +9,37 @@
       <div class="carousel-inner">
           <div class="carousel-item slider-image item active">
               <div class="item-wrapper">
-                  <img class="d-block w-100" src="assets/images/mbr-1900x1262.jpg">
+                  <img class="d-block w-100" [src]=this.source[1]>
 
                   <div class="carousel-caption">
                       <h5 class="mbr-section-subtitle mbr-fonts-style display-5">
-                          <strong>Maquetes</strong></h5>
-                      <p class="mbr-section-text mbr-fonts-style display-7">Algumas maquetes<br><br></p>
-                  </div>
-              </div>
-          </div>
-          <div class="carousel-item slider-image item">
-              <div class="item-wrapper">
-                  <img class="d-block w-100" src="assets/images/mbr-1900x1267.jpg">
-
-                  <div class="carousel-caption">
-                      <h5 class="mbr-section-subtitle mbr-fonts-style display-5">
-                          <strong>Maquete de macacos</strong>
+                          <strong>{{mydId}}</strong>
                       </h5>
-                      <p class="mbr-section-text mbr-fonts-style display-7">Click on the image to edit slides.</p>
+                      <p class="mbr-section-text mbr-fonts-style display-7">{{description[0]}}<br><br></p>
                   </div>
               </div>
           </div>
           <div class="carousel-item slider-image item">
               <div class="item-wrapper">
-                  <img class="d-block w-100" src="assets/images/mbr-1900x1234.jpg">
+                  <img class="d-block w-100" [src]=this.source[0]>
 
                   <div class="carousel-caption">
                       <h5 class="mbr-section-subtitle mbr-fonts-style display-5">
-                          <strong>Maquetes</strong></h5>
-                      <p class="mbr-section-text mbr-fonts-style display-7">Pequenos pedaços de mundo</p>
+                          <strong>{{mydId}}</strong>
+                      </h5>
+                      <p class="mbr-section-text mbr-fonts-style display-7">{{description[1]}}<br><br></p>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item slider-image item">
+              <div class="item-wrapper">
+                  <img class="d-block w-100" [src]=this.source[2]>
+
+                  <div class="carousel-caption">
+                      <h5 class="mbr-section-subtitle mbr-fonts-style display-5">
+                          <strong>{{mydId}}</strong>
+                      </h5>
+                      <p class="mbr-section-text mbr-fonts-style display-7">{{description[2]}}<br><br></p>
                   </div>
               </div>
           </div>

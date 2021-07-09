@@ -15,8 +15,13 @@ export class CarrouselComponent implements OnInit {
   @Input()
   public mydId: String;
 
-  ngOnInit() {
+  @Input()
+  public source: string[];
 
+  @Input()
+  public description: string[];
+
+  ngOnInit() {
   }
 
 }
